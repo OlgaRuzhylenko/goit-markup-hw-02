@@ -1,7 +1,7 @@
 /* common styles */
 body {
     background-color: #FFFFFF;
-    color:#2E2F42
+    color:#2E2F42;
 }
 a {
     text-decoration: none;
@@ -73,7 +73,7 @@ ul {
 .features-item {
 }
 .features-title {
-    color: #2E2F42;
+   
 }
 .features-text {
     color: #434455;
@@ -83,7 +83,7 @@ ul {
 .doing {
 }
 .title-doing {
-    color: #2E2F42;
+   
 }
 .list-doing {
 }
@@ -139,7 +139,7 @@ ul {
 .picture-img {
 }
 .title-img {
-    color: #2E2F42;
+   
 }
 .text-img {
     color: #434455;
