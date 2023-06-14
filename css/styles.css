@@ -1,1 +1,138 @@
 /* common styles */
+body {
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/* Header class */
+.header {
+}
+.header-nav {
+    
+}
+.header-logo {
+    color:#2E2F42;
+}
+.header-logo-text {
+    color: #4D5AE5
+
+}
+.header-list {
+}
+.header-item {
+   
+}
+.header-link {
+    color:#2E2F42;
+}
+.address {
+}
+.address-list {
+}
+.address-item {
+}
+.address-contact {
+    color: #434455;
+}
+
+/* Hero section class index */
+.hero {
+    background-color: #2E2F42;
+    color: #FFFFFF;
+}
+.hero-title {
+}
+.hero-button {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+
+/* features section class index */
+.features {
+}
+.features-list {
+}
+.features-item {
+}
+.features-title {
+    color: #2E2F42;
+}
+.features-text {
+    color: #434455;
+}
+
+/* what we are doing section class index */
+.doing {
+}
+.title-doing {
+    color: #2E2F42;
+}
+.list-doing {
+}
+.item-doing {
+}
+.img-doing {
+}
+
+/* team section class index */
+.team {
+    background-color: #F4F4FD;
+}
+.title-team {
+    color: #404BBF;
+}
+.list-team {
+}
+.item-team {
+}
+.img-team {
+}
+.name-team {
+    color: #404BBF;
+}
+.position-team {
+    color: #434455;
+}
+
+/* Секція кнопок class portfolio */
+.filter {
+}
+.list-filter {
+}
+.item-filter {
+}
+.button-filter {
+}
+
+/* секція картинок class portfolio */
+.img {
+}
+.list-img {
+}
+.item-img {
+}
+.picture-img {
+}
+.title-img {
+}
+.text-img {
+}
+
+
+
+/* footer class */
+.footer {
+    background-color: #2E2F42;
+}
+.logo-footer {
+    color: #F4F4FD;
+}
+.clogan-footer {
+    color: #F4F4FD;
+}
+.logo-footer-text {
+    color: #4D5AE5
+}
