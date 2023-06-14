@@ -29,6 +29,12 @@ ul {
 .header-link {
     color:#2E2F42;
 }
+.header-link:hover, :focus, :active {
+    color: #404BBF;
+}
+.header-link-active {
+    color: #404BBF;
+}
 .address {
 }
 .address-list {
@@ -37,6 +43,9 @@ ul {
 }
 .address-contact {
     color: #434455;
+}
+.address-contact:hover, :focus {
+    color: #404BBF;
 }
 
 /* Hero section class index */
@@ -48,6 +57,10 @@ ul {
 }
 .hero-button {
     background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.hero-button:hover, :focus {
+    background-color: #404BBF;
     color: #FFFFFF;
 }
 
@@ -125,8 +138,10 @@ ul {
 .picture-img {
 }
 .title-img {
+    color: #2E2F42;
 }
 .text-img {
+    color: #434455;
 }
 
 
