@@ -105,7 +105,14 @@ ul {
 .item-filter {
 }
 .button-filter {
+    color: #4D5AE5;
+    background-color: #F4F4FD;
+    border-color: #E7E9FC;
 }
+.button-filter:hover, :focus, :active  {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    }
 
 /* секція картинок class portfolio */
 .img {
