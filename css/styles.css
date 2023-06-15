@@ -8,14 +8,14 @@
     --hover-color: #404BBF;
     --secondary-black-color: #2E2F42;
     --border-color: #E7E9FC;
-    --primary-font: Roboto, sans-serif;
+    --primary-font: "Roboto", sans-serif;
     --secondary-font: 'Raleway';
 }
 
 /* common styles */
 body {
     background-color: var(--primary-white-color);
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
     font-family: var(--primary-font);
 }
 a {
