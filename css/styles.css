@@ -7,7 +7,7 @@
     --primary-accent-color: #4D5AE5;
     --hover-color: #404BBF;
     --secondary-black-color: #2E2F42;
-    --border-color: #E7E9FC;
+    
     --primary-font: "Roboto", sans-serif;
     --secondary-font: 'Raleway';
 }
@@ -171,7 +171,7 @@ text-transform: capitalize;
     text-align: center;
     letter-spacing: 0.02em;
 }
-.position-team {
+.positionn-team {
      font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -190,7 +190,6 @@ letter-spacing: 0.02em;
 .button-filter {
     color: var(--primary-accent-color);
     background-color: var(--secondary-white-color);
-        border-color: var(--border-color);
     cursor: pointer;
     font-weight: 500;
    line-height: 1.5;
