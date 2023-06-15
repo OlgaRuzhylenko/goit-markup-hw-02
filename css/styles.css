@@ -7,13 +7,16 @@
     --primary-accent-color: #4D5AE5;
     --hover-color: #404BBF;
     --secondary-accent-color: #434455;
+    --border-color: #E7E9FC;
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: 'Raleway';
 }
 
 /* common styles */
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-black-color);
-    font-family: Roboto, sans-serif;
+    font-family:var(--primary-font)
 }
 a {
     text-decoration: none;
@@ -30,7 +33,7 @@ ul, ol {
 }
 .header-logo {
     color: var(--primary-black-color);
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -189,7 +192,7 @@ letter-spacing: 0.02em;
 .button-filter {
     color: var(--primary-accent-color);
     background-color: var(--secondary-white-color);
-        border-color: #E7E9FC;
+        border-color: var(--border-color);
     cursor: pointer;
     font-weight: 500;
    line-height: 1.5;
@@ -235,7 +238,7 @@ letter-spacing: 0.02em;
 }
 .logo-footer {
     color: var(--secondary-white-color);
-    font-family: 'Raleway';
+    font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17x;
