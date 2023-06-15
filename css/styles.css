@@ -62,7 +62,7 @@ letter-spacing: 0.02em;
     color: var(--hover-color);
 }
 .header-link-active {
-    color: #2E2F42;
+    color: var(--secondary-black-color);
 }
 .address {   
 font-style: normal;
