@@ -18,6 +18,7 @@ body {
     color: var(--primary-text-color);
     font-family: var(--primary-font);
 }
+.link,
 a {
     text-decoration: none;
 }
@@ -111,6 +112,7 @@ letter-spacing: 0.04em;
 .features-list {
 }
 .features-item {
+
 }
 .features-title {
     color:  var(--secondary-black-color);
