@@ -214,10 +214,23 @@ letter-spacing: 0.02em;
 }
 .logo-footer {
     color: #F4F4FD;
+    font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17x;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
-.clogan-footer {
-    color: #F4F4FD;
-}
+
 .logo-footer-text {
     color: #4D5AE5
+}
+
+.clogan-footer {
+    color: #F4F4FD;
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
