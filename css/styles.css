@@ -78,12 +78,23 @@ letter-spacing: 0.02em;
     background-color: #2E2F42;
     color: var(--primary-white-color);
 }
-.hero-title {
+.hero-title {   
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+letter-spacing: 0.02em;
 }
 .hero-button {
     background-color: #4D5AE5;
     color: var(--primary-white-color);
     cursor: pointer;
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
 }
 .hero-button:hover, :focus {
     background-color: #404BBF;
@@ -98,18 +109,29 @@ letter-spacing: 0.02em;
 .features-item {
 }
 .features-title {
-   
-}
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    }
 .features-text {
     color: #434455;
+  font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 /* what we are doing section class index */
 .doing {
 }
 .title-doing {
-   
-}
+    font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+   }
 .list-doing {
 }
 .item-doing {
@@ -122,7 +144,12 @@ letter-spacing: 0.02em;
     background-color: #F4F4FD;
 }
 .title-team {
-    color: #404BBF;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 .list-team {
 }
@@ -131,10 +158,18 @@ letter-spacing: 0.02em;
 .img-team {
 }
 .name-team {
-    color: #404BBF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 .position-team {
     color: #434455;
+    font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
 }
 
 /* Секція кнопок class portfolio */
