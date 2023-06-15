@@ -34,7 +34,7 @@ ul, ol {
     
 }
 .header-logo {
-    color: #4D5AE5;
+    color: var(--primary-accent-color);
     font-family: 'Raleway', sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -43,8 +43,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-logo-text {
-    color: #2E2F42;
-
+    color: var(--secondary-black-color)
 }
 .header-list {
    font-weight: 500;
