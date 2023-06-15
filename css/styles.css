@@ -37,8 +37,6 @@ ul, ol {
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
@@ -100,8 +98,6 @@ letter-spacing: 0.02em;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
 }
 .hero-button:hover, :focus {
@@ -198,8 +194,6 @@ letter-spacing: 0.02em;
     cursor: pointer;
     font-weight: 500;
    line-height: 1.5;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
 }
@@ -243,8 +237,6 @@ letter-spacing: 0.02em;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17x;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
