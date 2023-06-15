@@ -43,7 +43,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-logo-text {
-    color: var(--primary-accent-color);
+    color: #4D5AE5;
 
 }
 .header-list {
