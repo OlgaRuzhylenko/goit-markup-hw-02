@@ -9,7 +9,7 @@
     --secondary-black-color: #2E2F42;
     
     --primary-font: "Roboto", sans-serif;
-    --secondary-font: 'Raleway';
+    --secondary-font: 'Raleway', sans-serif;
 }
 
 /* common styles */
