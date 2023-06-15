@@ -1,13 +1,18 @@
 /* змінні */
 :root {
     --primary-white-color:  #FFFFFF;
+    --secondary-white-color: #F4F4FD;
     --primary-black-color: #2E2F42;
+    --secondary-bgc:#F4F4FD;
+    --primary-accent-color: #4D5AE5;
+    --hover-color: #404BBF;
+    --secondary-accent-color: #434455;
 }
 
 /* common styles */
 body {
     background-color: var(--primary-white-color);
-    color:#2E2F42;
+    color: var(--primary-black-color);
     font-family: Roboto, sans-serif;
 }
 a {
@@ -24,7 +29,7 @@ ul, ol {
     
 }
 .header-logo {
-    color:#2E2F42;
+    color: var(--primary-black-color);
     font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
@@ -35,7 +40,7 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 .header-logo-text {
-    color: #4D5AE5
+    color: var(--primary-accent-color);
 
 }
 .header-list {
@@ -48,13 +53,13 @@ letter-spacing: 0.02em;
    
 }
 .header-link {
-    color:#2E2F42;
+    color: var(--primary-black-color);
 }
 .header-link:hover, :focus, :active {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 .header-link-active {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 .address {   
 font-style: normal;
@@ -67,15 +72,15 @@ letter-spacing: 0.02em;
 .address-item {
 }
 .address-contact {
-    color: #434455;
+    color: var(--secondary-accent-color);
 }
 .address-contact:hover, :focus {
-    color: #404BBF;
+    color: var(--hover-color);
 }
 
 /* Hero section class index */
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--primary-black-color);
     color: var(--primary-white-color);
 }
 .hero-title {   
@@ -86,7 +91,7 @@ text-align: center;
 letter-spacing: 0.02em;
 }
 .hero-button {
-    background-color: #4D5AE5;
+    background-color: var(--primary-accent-color);
     color: var(--primary-white-color);
     cursor: pointer;
     font-weight: 500;
@@ -97,7 +102,7 @@ align-items: center;
 letter-spacing: 0.04em;
 }
 .hero-button:hover, :focus {
-    background-color: #404BBF;
+    background-color: var(--hover-color);
     color: var(--primary-white-color);
 }
 
@@ -115,7 +120,7 @@ letter-spacing: 0.04em;
     letter-spacing: 0.02em;
     }
 .features-text {
-    color: #434455;
+    color: var(--secondary-accent-color);
   font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -141,7 +146,7 @@ text-transform: capitalize;
 
 /* team section class index */
 .team {
-    background-color: #F4F4FD;
+    background-color: var(--secondary-bgc);
 }
 .title-team {
     font-weight: 700;
@@ -165,7 +170,7 @@ text-transform: capitalize;
     letter-spacing: 0.02em;
 }
 .position-team {
-    color: #434455;
+    color: var(--secondary-accent-color);
     font-size: 16px;
 line-height: 1.5;
 text-align: center;
@@ -182,9 +187,9 @@ letter-spacing: 0.02em;
    
 }
 .button-filter {
-    color: #4D5AE5;
-    background-color: #F4F4FD;
-    border-color: #E7E9FC;
+    color: var(--primary-accent-color);
+    background-color: var(--secondary-white-color);
+        border-color: #E7E9FC;
     cursor: pointer;
     font-weight: 500;
    line-height: 1.5;
@@ -195,7 +200,7 @@ letter-spacing: 0.02em;
 }
 .button-filter:hover, :focus, :active  {
     color: var(--primary-white-color);
-    background-color: #404BBF;
+    background-color: var(--hover-color);
     }
 
 /* секція картинок class portfolio */
@@ -216,7 +221,7 @@ letter-spacing: 0.02em;
    
 }
 .text-img {
-    color: #434455;
+    color: var(--secondary-accent-color);
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -226,10 +231,10 @@ letter-spacing: 0.02em;
 
 /* footer class */
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--primary-black-color);
 }
 .logo-footer {
-    color: #F4F4FD;
+    color: var(--secondary-white-color);
     font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
@@ -241,11 +246,11 @@ text-transform: uppercase;
 }
 
 .logo-footer-text {
-    color: #4D5AE5
+    color: var(--primary-accent-color);
 }
 
 .clogan-footer {
-    color: #F4F4FD;
+    color: var(--secondary-white-color);
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
