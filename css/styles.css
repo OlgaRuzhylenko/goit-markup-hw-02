@@ -40,7 +40,7 @@ text-transform: uppercase;
 }
 .header-list {
    font-weight: 500;
-font-size: 16px;
+   font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
@@ -176,14 +176,22 @@ letter-spacing: 0.02em;
 .filter {
 }
 .list-filter {
+ 
 }
 .item-filter {
+   
 }
 .button-filter {
     color: #4D5AE5;
     background-color: #F4F4FD;
     border-color: #E7E9FC;
     cursor: pointer;
+    font-weight: 500;
+   line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
 }
 .button-filter:hover, :focus, :active  {
     color: var(--primary-white-color);
@@ -200,10 +208,18 @@ letter-spacing: 0.02em;
 .picture-img {
 }
 .title-img {
+    font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
    
 }
 .text-img {
     color: #434455;
+    font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 
