@@ -19,7 +19,8 @@ body {
     font-family: var(--primary-font);
 }
 .link,
-a {
+.header-link,
+.header-link-active {
     text-decoration: none;
 }
 ul, ol {
