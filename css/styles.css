@@ -1,6 +1,12 @@
+/* змінні */
+:root {
+    --primary-white-color:  #FFFFFF;
+    --primary-black-color: #2E2F42;
+}
+
 /* common styles */
 body {
-    background-color: #FFFFFF;
+    background-color: var(--primary-white-color);
     color:#2E2F42;
 }
 a {
@@ -9,6 +15,7 @@ a {
 ul {
     list-style-type: none;
 }
+
 /* Header class */
 .header {
 }
@@ -52,17 +59,17 @@ ul {
 /* Hero section class index */
 .hero {
     background-color: #2E2F42;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 .hero-title {
 }
 .hero-button {
     background-color: #4D5AE5;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 .hero-button:hover, :focus {
     background-color: #404BBF;
-    color: #FFFFFF;
+    color: var(--primary-white-color);
 }
 
 /* features section class index */
@@ -125,7 +132,7 @@ ul {
     border-color: #E7E9FC;
 }
 .button-filter:hover, :focus, :active  {
-    color: #FFFFFF;
+    color: var(--primary-white-color);
     background-color: #404BBF;
     }
 
