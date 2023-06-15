@@ -23,7 +23,7 @@ body {
 .header-link-active {
     text-decoration: none;
 }
-ul, ol {
+.list {
     list-style-type: none;
 }
 
