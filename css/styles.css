@@ -20,8 +20,8 @@ body {
 }
 .link,
 .header-link,
-.header-link-active {
-    text-decoration: none;
+.header-link-active
+   { text-decoration: none;
 }
 
 .list {
@@ -64,7 +64,7 @@ letter-spacing: 0.02em;
 .header-link-active {
     color: var(--secondary-black-color);
 }
-.header-link-active:hover, :focus {
+.header-link-active:hover,:focus {
     color: #404bbf;
 }
 
