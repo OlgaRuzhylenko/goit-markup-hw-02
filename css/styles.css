@@ -67,9 +67,9 @@ letter-spacing: 0.02em;
 .header-link-active:hover,:focus {
     color: #404bbf;
 }
-.header-link-active:focus {
+/* .header-link-active:focus {
     color: #404bbf;
-}
+} */
 
 .address {   
 font-style: normal;
