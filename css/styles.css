@@ -162,9 +162,10 @@ text-transform: capitalize;
     text-transform: capitalize;
 }
 .list-team {
-    background-color: var(--primary-white-color) ;
-}
+
+   }
 .item-team {
+    background-color: var(--primary-white-color);
 }
 .img-team {
 }
