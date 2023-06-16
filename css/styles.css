@@ -64,6 +64,9 @@ letter-spacing: 0.02em;
 .header-link-active {
     color: var(--secondary-black-color);
 }
+.header-link-active:hover, :focus {
+    color: #404bbf;
+}
 
 .address {   
 font-style: normal;
