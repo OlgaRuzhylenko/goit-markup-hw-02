@@ -84,10 +84,12 @@ letter-spacing: 0.02em;
 .address-contact {
     color: #434455;
 }
-.address-contact:hover, :focus {
+.address-contact:hover {
     color: var(--hover-color);
 }
-
+.address-contact:focus {
+    color: var(--hover-color);
+}
 /* Hero section class index */
 .hero {
     background-color: var(--secondary-black-color);
