@@ -237,7 +237,7 @@ letter-spacing: 0.02em;
     background-color: var(--secondary-black-color);
 }
 .logo-footer {
-    color: var(--secondary-white-color);
+        color: var(--primary-accent-color);
     font-family: var(--secondary-font);
 font-weight: 800;
 font-size: 18px;
@@ -247,7 +247,7 @@ text-transform: uppercase;
 }
 
 .logo-footer-text {
-    color: var(--primary-accent-color);
+    color: var(--secondary-white-color);
 }
 
 .clogan-footer {
